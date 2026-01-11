@@ -153,7 +153,7 @@ function App() {
               </label>
               <span className="todo-text">{todo.text}</span>
               <button 
-                className="delete-btn"
+                className='delete-btn'
                 onClick={() => deleteTodo(todo.id)}
                 aria-label="ลบรายการ"
               >
